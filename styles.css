@@ -1,0 +1,83 @@
+.header,
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.footer {
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+}
+
+.header > div {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+
+.toolbar {
+  display: flex;
+}
+
+.toolbar div {
+  padding: 15px;
+}
+
+.awesome-add {
+  display: flex;
+}
+
+.awesome-add div h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.awesomebox h1,
+.awesomebox p {
+  margin: 0px;
+}
+
+.toolbar .last-tool {
+  padding-right: 0px;
+}
+
+.awesome-add > div {
+  width: 50%;
+}
+
+.awesome-add img {
+  width: 100%;
+  height: 100%;
+}
+
+.awesomebox {
+  margin-right: 30px;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  color: #f9faf8;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.toolbar .head {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+  padding-left: 0px;
+}
+
+body {
+  margin: 0px;
+}
