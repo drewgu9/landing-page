@@ -1,3 +1,7 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
 .header,
 .footer {
   background-color: #1f2937;
@@ -58,7 +62,7 @@
   margin-right: 30px;
 }
 
-button {
+.awesomebox button {
   background-color: #3882f6;
   font-size: 18px;
   color: #f9faf8;
@@ -80,4 +84,97 @@ button {
 
 body {
   margin: 0px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+}
+
+.cards h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.cards > div {
+  display: flex;
+  width: 75%;
+  padding-bottom: 60px;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card {
+  margin: 20px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote blockquote {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote blockquote p {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote blockquote footer,
+.quote blockquote p {
+  color: #1f2937;
+}
+
+.quote blockquote footer {
+  font-size: 18px;
+  font-weight: 800;
+  float: right;
+}
+
+.call-to-action > div {
+  background-color: #3882f6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.call-to-action div div * {
+  margin: 0px;
+}
+
+.coloredfonts {
+  color: #e5e7eb;
+}
+
+.call-to-action button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #f9faf8;
+  font-size: 18px;
+  border: 2px solid #f9faf8;
 }
